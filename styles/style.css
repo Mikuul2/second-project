@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.accent-span {
+  display: block;
+}
+
+.content-section_theme_dark {
+  color: #F5F5F5;
+  background-color: #131313;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #FEE42A;
+}
+
+.content-section {
+  width: 360px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.header {
+  display: flex;
+  width: 360px;
+  height: 132px;
+  align-items: flex-start;
+  gap: 168px;
+  padding: 24px 20px;
+}
+
+.header__logo-image {
+  width: 78.453px;
+  height: 15.432px;
+}
+
+.header__menu-list {
+  list-style: none;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.cover {
+  padding: 7px 24px 0 20px;
+  background-image: url(../images/cover.svg);
+  background-position: bottom right;
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+}
+
+.cover__title {
+  color: #FFF;
+  text-align: center;
+  font-family: 'EB Garamond';
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.intro {
+  padding: 30px 20px 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #CCC;
+}
+
+.intro__title {
+  font-size: 16px;
+  line-height: 120%;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.intro__date {
+  font-size: 16px;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  color: #F5F5F5;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  color: 131313;
+  font-family: EB Garamond;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  padding-bottom: 32px;
+}
+
+.content-section__introduction {
+  padding-bottom: 32px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.content-section__list {
+  padding-left: 13px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-section__list-item {
+  width: 304px;
+  color: #131313;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  padding: 40px 21px 60px 20px;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 30px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  color: #131313;
+  background-color: #FEE42A;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.card__title {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.footer {
+  display: flex;
+  width: 360px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer-copy {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer__links-link {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
